@@ -8,10 +8,10 @@ Hello, in this application I made finding the location by IPv4 using the API - i
 #
 
 <p align="center">
-<img src=""></p>
+<img src="https://raw.githubusercontent.com/MilkRen/Location-by-IPv4/master/img_github/Screenshot1.png" width=250 height=380></p>
 
 <p align="center">
-<img src=""></p>
+<img src="https://raw.githubusercontent.com/MilkRen/Location-by-IPv4/master/img_github/Screenshot2.png" width=250 height=380></p>
 
 
 Regex is used for the main cases, and the rest is cosmetic. Comments have been added to some points to make it clear. 
@@ -23,6 +23,12 @@ Use it, learn it! Criticism is welcome!)
              match = Regex.Match(str, "\"country\":\"(.*?)\",(.*?)\"region\":\"(.*?)\",(.*?)\"city\":\"(.*?)\",\"latitude\":(.*?),\"longitude\":(.*?),(.*?)\"domain\":\"(.*?)\"},\"(.*?)\","); //(.*?) - I find missing elements in the specified deopazon
 
 ```
+
+# Framework
+<p align="center">
+<img src="https://raw.githubusercontent.com/MilkRen/Location-by-IPv4/master/img_github/Screenshot3.png" width=500 height=150></p>
+
+#  YouTube 
 
 ### <p align="center">Video YT https://www.youtube.com/watch?v=BFq6wXHKxfI </p>
 
