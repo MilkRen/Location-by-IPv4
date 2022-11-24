@@ -1,11 +1,28 @@
 # Location-by-IPv4
-![](https://github.com/MilkRen/Location-by-IPv4/blob/master/Ip/Logo.png?raw=true)
+<p align="center">
+<img src="https://github.com/MilkRen/Location-by-IPv4/blob/master/Ip/Logo.png?raw=true"></p>
 Hello, in this application I made finding the location by IPv4 using the API - ipwho.is
 
-With this API, you can get the location of the city, village, find out the provider (you can look at the official API website to get acquainted with the functionality and edit code it for yourself).
+ With this API, you can get the location of the city, village, find out the provider (you can look at the official API website to get acquainted with the functionality and edit code it for yourself).
+
+#
+
+<p align="center">
+<img src=""></p>
+
+<p align="center">
+<img src=""></p>
+
 
 Regex is used for the main cases, and the rest is cosmetic. Comments have been added to some points to make it clear. 
 Use it, learn it! Criticism is welcome!)
+
+```text
+            str = wc.DownloadString($"http://ipwho.is/{textBoxInputIP.Text}"); // API
+            
+             match = Regex.Match(str, "\"country\":\"(.*?)\",(.*?)\"region\":\"(.*?)\",(.*?)\"city\":\"(.*?)\",\"latitude\":(.*?),\"longitude\":(.*?),(.*?)\"domain\":\"(.*?)\"},\"(.*?)\","); //(.*?) - I find missing elements in the specified deopazon
+
+```
 
 ### <p align="center">Video YT https://www.youtube.com/watch?v=BFq6wXHKxfI </p>
 
