@@ -18,9 +18,9 @@ Regex is used for the main cases, and the rest is cosmetic. Comments have been a
 Use it, learn it! Criticism is welcome!)
 
 ```text
-            str = wc.DownloadString($"http://ipwho.is/{textBoxInputIP.Text}"); // API
+ str = wc.DownloadString($"http://ipwho.is/{textBoxInputIP.Text}"); // API
             
-             match = Regex.Match(str, "\"country\":\"(.*?)\",(.*?)\"region\":\"(.*?)\",(.*?)\"city\":\"(.*?)\",\"latitude\":(.*?),\"longitude\":(.*?),(.*?)\"domain\":\"(.*?)\"},\"(.*?)\","); //(.*?) - I find missing elements in the specified deopazon
+match = Regex.Match(str, "\"country\":\"(.*?)\",(.*?)\"region\":\"(.*?)\",(.*?)\"city\":\"(.*?)\",\"latitude\":(.*?),\"longitude\":(.*?),(.*?)\"domain\":\"(.*?)\"},\"(.*?)\","); //(.*?) - I find missing elements in the specified deopazon
 
 ```
 
